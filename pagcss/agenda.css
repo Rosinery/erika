@@ -1,0 +1,9 @@
+body{
+    text-align: center;
+}
+.agenda{
+    font-size: 100px;
+    margin-top: 200px;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+}

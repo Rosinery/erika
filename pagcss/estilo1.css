@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #584026;
+    text-align: center;
+    align-items: center;
+}
+header{
+    font-weight: bold;
+    font-family: 'Amatic SC', cursive;
+    width: 100%;
+    height: 75px;
+    display: block;
+    background-color: #523d26;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    color: rgb(215, 205, 205);
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+}
+nav{
+    display: none;
+    text-align: center;
+    align-items: center;  
+}
+nav ul{
+    list-style-type: none;
+    display: block;
+    padding: 10px;
+    margin-right: 20px;
+    text-align: center;
+    align-items: center;
+    z-index: 99999;
+    top: 0;
+    background-color: #8d7f71;
+    
+}
+
+ul a{
+    color: rgb(215, 205, 205);
+    font-family: 'Amatic SC', cursive;
+    margin: 10px;
+    padding: 8px;
+    text-decoration: none;
+    font-size:  25px;
+    font-weight: bold;
+    display:block;
+    align-items: center;
+    text-align: center;
+    transition: .7s;   
+}
+ul a:hover{
+    background-color: rgb(215, 205, 205);
+    color: black;
+}
+main{
+    max-width: 1200px;
+    margin: auto;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+main img{
+    width: 70%;
+    margin-top: 150px;
+}
+article{
+    display: block;
+    width: 100%;
+    background-color: black;
+    height: 100vh;
+}
+.sobreBanda{
+    display: block;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    color: white;
+    padding-top: 20px;
+    display: block;
+    
+}
+.sobreBanda h2{
+    font-size: 50px;
+    color: #e6a35c;
+}
+.sobreBanda p {
+    margin: 10px;
+    
+    display: block;
+    text-indent: 25px;
+    text-align: justify;
+    padding: 10px;
+    font-family: sans-serif;
+}
+div.popeye{
+    max-width: 1200px;
+    height: 100vh;
+    background-color: rgb(215, 205, 205);
+    margin:auto;
+    background-image: url("../img/ErikinhaDVD1.jpg");
+    background-attachment: fixed;
+    background-position:top center;
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+}
+div.descricao{
+    display: block;
+    max-width: 1200px;
+    height: 50vh;
+    background-color:black;
+    margin:auto;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    font-family: 'Amatic SC', cursive;
+    color:#e6a35c;
+    padding: 30px;
+    text-align: justify;
+
+}
+div.descricao h3{  
+    padding-left: 40px;
+    font-size: 65px;
+    font-weight: bold;
+}
+.descricao p{
+    display: block;
+    color: white;
+    text-indent: 20px;
+    padding-bottom: 30px;
+}
+div.death{
+    max-width: 1200px;
+    height: 100vh;
+    background-color: rgb(215, 205, 205);
+    margin:auto;
+    background-image: url("../img/Erikinha1.jpg");
+    background-attachment: fixed;
+    background-position:center ;
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+}
+div.descricao1{
+    display: block;
+    max-width: 1200px;
+    height: 50vh;
+    background-color:black;
+    margin:auto;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    font-family: 'Amatic SC', cursive;
+    color:#e6a35c;
+    padding: 30px;
+    text-align: justify;
+}
+div.descricao1 h3{  
+    padding-left: 40px;
+    font-size: 65px;
+    font-weight: bold;
+}
+.descricao1 p{
+    color: white;
+    text-indent: 20px;
+    padding-bottom: 30px;
+}
+div.markim{
+    max-width: 1200px;
+    height: 100vh;
+    background-color: rgb(215, 205, 205);
+    margin:auto;
+    background-image: url("../img/Erikinha2.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+}
+div.descricao2{
+    display: block;
+    max-width: 1200px;
+    height: 50vh;
+    background-color:black;
+    margin:auto;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    font-family: 'Amatic SC', cursive;
+    color:#e6a35c;
+    padding: 30px;
+    text-align: justify;
+}
+div.descricao2 h3{  
+    padding-left: 40px;
+    font-size: 65px;
+    font-weight: bold;
+}
+.descricao2 p{
+    color: white;
+    text-indent: 20px;
+    padding-bottom: 30px;
+}
+div.ely{
+    max-width: 1200px;
+    height: 100vh;
+    background-color: rgb(215, 205, 205);
+    margin:auto;
+    background-image: url("../img/ErikinhaCorte1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+}
+div.descricao3{
+    display: block;
+    max-width: 1200px;
+    height: 50vh;
+    background-color:black;
+    margin:auto;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    font-family: 'Amatic SC', cursive;
+    color:#e6a35c;
+    padding: 30px;
+    text-align: justify;
+}
+div.descricao3 h3{
+    padding-left: 40px;
+    font-size: 65px;
+    font-weight: bold;
+}
+div.descricao3 p{
+    color: white;
+    text-indent: 20px;
+    padding-bottom: 30px;
+}
+.icone{
+    text-decoration: none;
+    display: block;
+    font-size: 20px;   
+}
+.icone a{
+    text-decoration: none;
+}
+.fa-brands{
+    text-decoration: none;
+    padding: 8px;
+    color:rgb(215, 205, 205);
+}
+
+
+

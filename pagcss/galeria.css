@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: #584026;
+    text-align: center;
+    align-items: center;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: inline;
+    
+}
+.img1{
+    color: white;
+    width: 100%;
+    height: 100vh;
+    background-image:url("../img/ErikinhaDVD1.jpg");
+    text-align: center;
+    align-items: center;
+    background-size: cover;
+    
+    background-attachment: fixed;
+}
+.img2{
+    color: white;
+    width: 100%;
+    margin: auto;
+    height: 100vh;
+    color: white;
+    width: 100%;
+    height: 100vh;
+    background-image:url("../img/ErikinhaDVD2.jpg");
+    text-align: center;
+    align-items: center;
+    background-size: cover;
+    
+    background-attachment: fixed;
+}
+.img3{
+    color: white;
+    width: 100%;
+    height: 100vh;
+    color: white;
+    width: 100%;
+    height: 100vh;
+    background-image:url("../img/Erikinha1.1.jpg");
+    text-align: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.img4{
+    
+    color: white;
+    width: 100%;
+    height: 100vh;
+    color: white;
+    width: 100%;
+    height: 100vh;
+    background-image:url("../img/Erikinha1.2.jpg");
+    text-align: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.img5{
+    color: white;
+    width: 100%;
+    height: 100vh;
+    color: white;
+    width: 100%;
+    height: 100vh;
+    background-image:url("../img/Erikinha1.3.jpg");
+    text-align: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.icone{
+    text-decoration: none;
+    display: block;
+    font-size: 25px;   
+}
+.icone a{
+    text-decoration: none;
+}
+.fa-brands{
+    text-decoration: none;
+    padding: 5px;
+}
+
